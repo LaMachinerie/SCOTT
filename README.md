@@ -1,5 +1,4 @@
-# SCOTT
-Scott - Le robot pédgogique
+# SCOTT - Le robot pédagogique
 
 ### Présentation :
 
