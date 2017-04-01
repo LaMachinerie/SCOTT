@@ -3,7 +3,7 @@ Scott - Le robot pédgogique
 
 ### Présentation :
 
-![](https://github.com/LaMachinerie/SCOTT/blob/master/Pictures/scott_principal.png)
+<img src="https://github.com/LaMachinerie/SCOTT/blob/master/Pictures/scott_principal.png" width="600" align="center" >
 
 Qui est SCOTT ? C'est un petit robot éducatif à monter et programmer soi même grâce à la simplicité d'ArduBlock. Il avance, recule, tourne, se déplace, évite ou suit un objet. A vous de jouer !
 
