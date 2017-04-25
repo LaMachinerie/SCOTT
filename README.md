@@ -8,7 +8,7 @@ Qui est SCOTT ? C'est un petit robot éducatif à monter et programmer soi même
 
 Les pieces peuvent toutes être crées grace à une imprimante 3D et le robot s'assemble facilement en moins d'une heure. Ce robot est idéal pour s'intier à la robotique et à la programmation.
 
-Il a été développé par L'association La Machinerie (chinerie.org) dans le cadre du programme de médiation scientifique et technique OpenBot (lamachinerie.org/openbot/), et en partenariat avec l'entreprise Dagoma (https://www.dagoma.fr).
+Il a été développé par L'association [La Machinerie](http://lamachinerie.org) dans le cadre du programme de médiation scientifique et technique OpenBot (lamachinerie.org/openbot/), et en partenariat avec l'entreprise Dagoma (https://www.dagoma.fr).
 
 ### Licence :
 
