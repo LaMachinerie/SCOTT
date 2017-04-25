@@ -1,27 +1,27 @@
-# Ardublockly
-Ardublockly is a visual programming editor for Arduino. It is based on Google's [Blockly][1], which has been forked to generate [Arduino][15] code.
+# Ardublockly-Scott
+Ardublockly-Scott est un editeur de programmation visuel pour Arduino modifié par la Machinerie pour le robot Scott. Il est basé sur la librairie de Google: [Blockly][1], modifié pour générer des codes [Arduino][15].
 
-The `ArdublocklyServer` Python package initialises a local server to be able to compile and load the Arduino code using the [Arduino IDE][2].
+Le paquet Python `ArdublocklyServer` un serveur local pour pouvoir compiler et charger les code Arduino grâce à l'[IDE Arduino][2].
 
-This is all packaged in a self contained executable desktop application for Windows, Mac OS X, and Linux.
+Tout ceci et conditionné dans une application exécutable bureau pour Windows, Mac OS X, and Linux.
 
-![Ardublockly desktop program screenshot][desktop_screeshot]
-
-
-## Features
-* Generates Arduino code with visual drag-and-drop blocks
-* Uploads the code to an Arduino Board
-* Useful "code block warnings"
-* Compatible with a wide range of official Arduino Boards
-* Works on Windows / Linux / Mac OS X
-
-Ardublockly is still under development and a few features are not yet implemented. A to-do list can be found in the [TODO.md][3] file.
-
-Currently tested under Windows with Python 2.7 and 3.4 and in Linux and MacOS X with Python 2.7.
+![Ardublockly desktop program screenshot][https://camo.githubusercontent.com/ac2ae3998fc8c77e55effe4c9cbd84031c473fbe/687474703a2f2f6361726c6f737065726174652e6769746875622e696f2f61726475626c6f636b6c792f696d616765732f73637265656e73686f745f6465736b746f705f312e706e67]
 
 
-## Cloning the repository
-Please note that there are submodules in the repository that need initialisation. So, to correctly clone the Ardublockly repository:
+## Caractéristique
+* Génére un code Arduino grace à une interface de programmation visuel de type drag-and-drop.
+* Téléverse le code directemment dans la carte arduino
+* Gestion des erreurs de programmation via message sur les blocs
+* Compatibleavec une large gamme de carte arduino
+* Fonctionne sous Windows / Linux / Mac OS X
+
+Ardublockly est encore en developpement et certaine fonction ne sont pas encore implémentées. Une to-do liste peut être consultée si besoin [TODO.md][3].
+
+Actuellement tester sous Windows avec Python 2.7 et 3.4 et sous Linux et MacOS X avec Python 2.7.
+
+
+## Cloner le repository Github
+Veuillez noter que certains sous-modules dans le repository gitHub ont besoin d'être initialisé. Par conséquent, pour correctement cloner le repository Ardublockly, veuillez utiliser git:
 
 ```
 git clone https://github.com/carlosperate/ardublockly.git
@@ -30,82 +30,42 @@ git submodule update --init --recursive
 ```
 
 
-## Installing
-The desktop application is available for Windows/Mac/Linux and runs as a stand-alone executable that can be downloaded from the [Ardublockly repository releases page][4].
+## Installer
+L'application est disponible pour Windows/Mac/Linux et executer tel quel. Elle peut être téléchargé depuis cette page : [Ardublockly][4].
 
-You will also need the [Arduino IDE version 1.6.x or higher][2].
+Vous aurez besoin de l'[IDE Arduino version 1.6.x ou plus][2].
 
-#### Development builds
-You can also test __UNSTABLE__ development builds automatically generated every time an update is added to the GitHub repository:
-
-| Linux build         | Windows build       | Mac OS X build       |
-|:-------------------:|:-------------------:|:--------------------:|
-| [![Linux Build Status](https://circleci.com/gh/carlosperate/ardublockly/tree/master.svg?style=svg)](https://circleci.com/gh/carlosperate/ardublockly/tree/master) | [![Windows Build status](https://ci.appveyor.com/api/projects/status/t877g920hdiifc2i?svg=true)](https://ci.appveyor.com/project/carlosperate/ardublockly) | [![Mac Build Status](https://travis-ci.org/carlosperate/ardublockly.svg?branch=master)](https://travis-ci.org/carlosperate/ardublockly) |
-| [Download Link][12] | [Download Link][13] | [Download Link][14]  |
-
-#### "Core version" (Python server only)
-If you prefer, the core software can be used by running only the Python server, which loads the web interface on your local browser (Chrome recommended).
-
-Full installation instructions for this version can be found in [this Github repository Wiki][5].
-
-The quick version: Clone this repository, initialise all submodules, and execute:
+Tout les details de l'instalation peuvent être trouver sur le [Wiki github de ce projet Wiki][5].
 
 ```
 python start.py
 ```
 
-This will work on Windows, Linux (including ARM) and Mac OS X, with Python >2.7 or >3.4
-
-
 ## Running
-1. [Install Ardublockly][5].
-2. Install the [Arduino IDE][2] version 1.6.x or higher (latest version is always recommended).
-3. Run Ardublockly as defined in your installation method.
-3. Configure Ardublockly to locate the Arduino IDE [following these instructions][6].
+1. [Installer Ardublockly][5].
+2. Installer l'[IDE Arduino][2] version 1.6.x ou plus (la dernière verions et toujours recommandée).
+3. Executer Ardublockly comme détaillé dans la méthode d'installation.
+3. Configurer Ardublockly pour localiser l'IDE Arduino : [Instructions][6].
 
 
 ## Online Demos
-A demo of the latest release of Ardublockly main interface can be found in the following two links (to load the code into an Arduino it requires the full Ardublockly application to be downloaded and run on your computer):
+Des demos de l'interface principale d'Ardublockly peuvent être testé aux deux liens suivants (Pour téléverser du code dans l'arduino, ardublocky doit être installe completement sur votre ordinateur).
 
 #### [Ardublockly][10]
 ![WebApp screenshot responsive design][web_screenshot_responsive]
 
-#### [Ardublockly classic][11]
+#### [Ardublockly classique][11]
 ![WebApp screenshot][web_screenshot_classic]
 
 
 ## Documentation
-The documentation, including installation instructions, configuration instructions, and developer information can be found in the [Ardublockly GitHub repository Wiki][7].
+La documentation, incluant les instructions d'installation, de configuration, et les informations pour developeur peuvent être trouver ici: [Ardublockly GitHub Wiki][7].
 
-To download the documentation you can git clone the wiki data:
+Pour télécharger la documentation vous pouvez cloner les données du github en utlisant Git:
 
 ```
 git clone https://github.com/carlosperate/ardublockly.wiki.git
 ```
-
-
-## Credit
-This project has been inspired by [BlocklyDuino][16].
-
-Blockly original source is Copyright of Google Inc. [https://developers.google.com/blockly/][1]. A list of changes to the Blockly fork can be found in the [Blockly subdirectory README][17] file.
-
-
-## License
-Copyright (c) 2016 carlosperate https://github.com/carlosperate/
-
-Unless stated otherwise, the source code of this projects is
-licensed under the Apache License, Version 2.0 (the "License");
-you may not use any of the licensed files within this project
-except in compliance with the License.
-
-The full document can be found in the [LICENSE][9] file.
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
 
 [1]: https://developers.google.com/blockly/
 [2]: http://www.arduino.cc/en/main/software/
