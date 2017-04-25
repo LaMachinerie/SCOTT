@@ -15,7 +15,7 @@ Tout ceci et conditionné dans une application exécutable bureau pour Windows, 
 * Compatibleavec une large gamme de carte arduino
 * Fonctionne sous Windows / Linux / Mac OS X
 
-Ardublockly est encore en developpement et certaine fonction ne sont pas encore implémentées. Une to-do liste peut être consultée si besoin [TODO.md][3].
+Ardublockly est encore en developpement et certaines fonctions ne sont pas encore implémentées. Une to-do liste peut être consultée si besoin [TODO.md][3].
 
 Actuellement tester sous Windows avec Python 2.7 et 3.4 et sous Linux et MacOS X avec Python 2.7.
 
