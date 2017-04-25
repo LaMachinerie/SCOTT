@@ -1,7 +1,7 @@
 # Ardublockly-Scott
 Ardublockly-Scott est un editeur de programmation visuel pour Arduino modifié par la Machinerie pour le robot Scott. Il est basé sur la librairie de Google: [Blockly][1], modifié pour générer des codes [Arduino][15].
 
-Le paquet Python `ArdublocklyServer` un serveur local pour pouvoir compiler et charger les code Arduino grâce à l'[IDE Arduino][2].
+Le paquet Python `ArdublocklyServer` est un serveur local pour pouvoir compiler et charger les code Arduino grâce à l'[IDE Arduino][2].
 
 Tout ceci et conditionné dans une application exécutable bureau pour Windows, Mac OS X, and Linux.
 
