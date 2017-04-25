@@ -1,0 +1,534 @@
+2017-04-20T12:55:32.200Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-20T12:55:32.204Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-20T12:55:32.204Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-20T12:55:32.350Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-20T12:55:38.797Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings file corrupted or not found in:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+Settings will be set to the default values.
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-20T12:56:28.810Z - info: [ServerMgr] Server stopped.
+2017-04-20T16:25:45.950Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-20T16:25:45.950Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-20T16:25:45.950Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-20T16:25:46.019Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-20T16:25:50.079Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-20T16:25:58.923Z - info: [ServerMgr] Server stopped.
+2017-04-20T16:41:48.878Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-20T16:41:48.881Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-20T16:41:48.881Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-20T16:41:48.938Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-20T16:41:50.665Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-20T16:42:59.518Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\Topart\Desktop\Ardublockly
+
+Launching the HTTP service...
+
+IDE options set to:
+	Verify sketch
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-20T16:43:03.577Z - info: [ServerMgr] Server stopped.
+2017-04-20T16:43:03.589Z - info: [ArdublocklySrv] Process exited with code null
+2017-04-22T11:37:02.634Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-22T11:37:02.634Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-22T11:37:02.634Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-22T11:37:02.781Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-22T11:37:07.581Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T11:37:54.967Z - info: [ServerMgr] Server stopped.
+2017-04-22T11:55:58.051Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-22T11:55:58.051Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-22T11:55:58.051Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-22T11:55:58.183Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-22T11:56:02.427Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T11:56:23.607Z - info: [ServerMgr] Server stopped.
+2017-04-22T12:16:40.035Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-22T12:16:40.035Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-22T12:16:40.035Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-22T12:16:40.173Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-22T12:16:44.182Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM10
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:19:35.304Z - info: [ServerMgr] Server stopped.
+2017-04-22T12:19:35.365Z - info: [ArdublocklySrv] Process exited with code null
+2017-04-22T12:19:42.428Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-22T12:19:42.428Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\Desktop\Ardublockly
+2017-04-22T12:19:42.428Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-22T12:19:42.575Z - info: [ServerMgr] Command: C:\Users\Topart\Desktop\Ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-22T12:19:46.177Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\Desktop\Ardublockly
+Selected server root: C:\Users\Topart\Desktop\Ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM10
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\Desktop\Ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:20:25.701Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\Topart\Desktop\Ardublockly
+
+Launching the HTTP service...
+
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:21:13.620Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:20.952Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM10 --board arduino:avr:uno C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Le croquis utilise 3482 octets (10%) de l'espace de stockage de programmes. Le maximum est de 32256 octets.
+Les variables globales utilisent 13 octets (0%) de m�moire dynamique, ce qui laisse 2035 octets pour les variables locales. Le maximum est de 2048 octets.
+
+Arduino Error output:
+Chargement de la configuration
+Initialisation des paquets...
+Pr�paration des cartes
+V�rification...
+T�l�versement...
+
+Arduino Exit code: 0
+
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:29.609Z - info: [ArdublocklySrv] 
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:37.943Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:39.809Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:42.026Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:43.472Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:47.626Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:49.791Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:51.028Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:52.242Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:25:59.639Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:26:00.696Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:26:19.681Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:26:22.090Z - info: [ArdublocklySrv] 
+Serial Port set to:
+	COM10
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T12:37:48.349Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM10 --board arduino:avr:uno C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Le croquis utilise 3486 octets (10%) de l'espace de stockage de programmes. Le maximum est de 32256 octets.
+Les variables globales utilisent 13 octets (0%) de m�moire dynamique, ce qui laisse 2035 octets pour les variables locales. Le maximum est de 2048 octets.
+
+Arduino Error output:
+Chargement de la configuration
+Initialisation des paquets...
+Pr�paration des cartes
+V�rification...
+T�l�versement...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM10 --board arduino:avr:uno C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Le croquis utilise 3486 octets (10%) de l'espace de stockage de programmes. Le maximum est de 32256 octets.
+Les variables globales utilisent 13 octets (0%) de m�moire dynamique, ce qui laisse 2035 octets pour les variables locales. Le maximum est de 2048 octets.
+
+Arduino Error output:
+Chargement de la configuration
+Initialisation des paquets...
+Pr�paration des cartes
+V�rification...
+T�l�versement...
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 3 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 4 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 5 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 6 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 7 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 8 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 9 of 10: not in sync: resp=0x55
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 10 of 10: not in sync: resp=0x55
+Une erreur est survenue lors du transfert du croquis
+
+Arduino Exit code: 0
+
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T13:14:09.414Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T13:39:13.101Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM10 --board arduino:avr:uno C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Le croquis utilise 3486 octets (10%) de l'espace de stockage de programmes. Le maximum est de 32256 octets.
+Les variables globales utilisent 13 octets (0%) de m�moire dynamique, ce qui laisse 2035 octets pour les variables locales. Le maximum est de 2048 octets.
+
+Arduino Error output:
+Chargement de la configuration
+Initialisation des paquets...
+Pr�paration des cartes
+V�rification...
+T�l�versement...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM10 --board arduino:avr:uno C:\Users\Topart\Desktop\Ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Le croquis utilise 3486 octets (10%) de l'espace de stockage de programmes. Le maximum est de 32256 octets.
+Les variables globales utilisent 13 octets (0%) de m�moire dynamique, ce qui laisse 2035 octets pour les variables locales. Le maximum est de 2048 octets.
+
+Arduino Error output:
+Chargement de la configuration
+Initialisation des paquets...
+Pr�paration des cartes
+V�rification...
+T�l�versement...
+avrdude: ser_open(): can't open device "\.\COM10": Le fichier sp�cifi� est introuvable.
+
+Une erreur est survenue lors du transfert du croquis
+
+Arduino Exit code: 0
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T13:39:34.882Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T13:40:55.384Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Verify sketch
+Settings file saved to:
+	C:\Users\Topart\Desktop\Ardublockly\ServerCompilerSettings.ini
+
+2017-04-22T13:42:11.372Z - info: [ServerMgr] Server stopped.
+2017-04-22T13:42:11.424Z - info: [ArdublocklySrv] Process exited with code null
