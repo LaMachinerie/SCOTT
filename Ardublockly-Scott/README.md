@@ -71,7 +71,7 @@ git clone https://github.com/carlosperate/ardublockly.wiki.git
 [2]: http://www.arduino.cc/en/main/software/
 [3]: TODO.md
 [4]: https://github.com/carlosperate/ardublockly/releases/
-[5]: https://github.com/carlosperate/ardublockly/wiki/Installing-Ardublockly
+[5]: https://github.com/LaMachinerie/SCOTT/wiki/Installer-Ardublockly
 [6]: https://github.com/carlosperate/ardublockly/wiki/Configure-Ardublockly
 [7]: https://github.com/carlosperate/ardublockly/wiki
 [8]: https://github.com/carlosperate/ardublockly/compare/blockly-original...master
