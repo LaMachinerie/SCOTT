@@ -35,20 +35,20 @@ L'application est disponible pour Windows/Mac/Linux et executer tel quel. Elle p
 
 Vous aurez besoin de l'[IDE Arduino version 1.6.x ou plus][2].
 
-Tout les details de l'instalation peuvent être trouver sur le [Wiki github de ce projet Wiki][5].
+Tout les details de l'instalation peuvent être trouver sur le [Wiki github de ce projet][5].
 
 ```
 python start.py
 ```
 
-## Running
+## Exécuter
 1. [Installer Ardublockly][5].
 2. Installer l'[IDE Arduino][2] version 1.6.x ou plus (la dernière verions et toujours recommandée).
 3. Executer Ardublockly comme détaillé dans la méthode d'installation.
 3. Configurer Ardublockly pour localiser l'IDE Arduino : [Instructions][6].
 
 
-## Online Demos
+## Démos en ligne
 Des demos de l'interface principale d'Ardublockly peuvent être testé aux deux liens suivants (Pour téléverser du code dans l'arduino, ardublocky doit être installe completement sur votre ordinateur).
 
 #### [Ardublockly][10]
