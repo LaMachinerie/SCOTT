@@ -45,3 +45,129 @@ Settings file saved to:
 	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
 
 2017-04-26T08:53:11.476Z - info: [ServerMgr] Server stopped.
+2017-04-26T09:01:18.005Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2017-04-26T09:01:18.006Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott
+2017-04-26T09:01:18.006Z - info: [ArdublocklyElec] OS detected: win32
+2017-04-26T09:01:18.081Z - info: [ServerMgr] Command: C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\arduexec\server\start.exe --findprojectroot --nobrowser
+2017-04-26T09:01:19.929Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.14393
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott
+Selected server root: C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:01:24.627Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott
+
+Launching the HTTP service...
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:01:56.776Z - info: [ArdublocklySrv] The "something" = ['else'] parameter is not recognised!
+
+Compiler directory set to:
+	C:\Program Files (x86)\Arduino\arduino.exe
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:01:59.368Z - info: [ArdublocklySrv] 
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:01.037Z - info: [ArdublocklySrv] 
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:02.877Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:24.807Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:24.820Z - info: [ArdublocklySrv] 
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:27.064Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:41.432Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:41.445Z - info: [ArdublocklySrv] 
+There are no available Serial Ports !!!
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:02:54.406Z - info: [ArdublocklySrv] 
+Provided Serial Port is not valid: !!!
+	no_ports
+Default Serial Port set:
+	None
+Settings file saved to:
+	C:\Users\Topart\La Machinerie\Github\Scott\SCOTT\Ardublockly-Scott\ServerCompilerSettings.ini
+
+2017-04-26T09:04:03.597Z - info: [ServerMgr] Server stopped.

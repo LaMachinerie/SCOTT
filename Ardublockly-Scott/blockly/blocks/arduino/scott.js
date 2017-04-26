@@ -105,7 +105,7 @@ Blockly.Blocks['scott_sharp'] = {
 
 Blockly.Blocks['scott_version'] = {
   init: function() {
-    this.appendValueInput("Version")
+    this.appendDummyInput("Version")
         .appendField("Selectionner la version de Scott: ")
         .appendField(new Blockly.FieldDropdown([["V1", "1"], ["V2", "2"]]), "setVersion");
     this.setPreviousStatement(true);
