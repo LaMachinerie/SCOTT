@@ -208,22 +208,14 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="servo_read"></block>' +
 '  </category>' +
 '  <sep></sep>' +
-'  <category id="catScott1" name="Scott v1">' +
-'    <block type="scott1_forward"></block>' +
-'    <block type="scott1_backward"></block>' +
-'    <block type="scott1_right"></block>' +
-'    <block type="scott1_left"></block>' +
-'    <block type="scott1_stop"></block>' +
-'    <block type="scott1_setspeed"></block>' +
-'    <block type="scott1_sharp"></block>' +
-'  </category>' +
-'  <category id="catScott2" name="Scott v2">' +
-'    <block type="scott2_forward"></block>' +
-'    <block type="scott2_backward"></block>' +
-'    <block type="scott2_right"></block>' +
-'    <block type="scott2_left"></block>' +
-'    <block type="scott2_stop"></block>' +
-'    <block type="scott2_setspeed"></block>' +
-'    <block type="scott2_sharp"></block>' +
+'  <category id="catScott" name="Scott">' +
+'    <block type="scott_forward"></block>' +
+'    <block type="scott_backward"></block>' +
+'    <block type="scott_right"></block>' +
+'    <block type="scott_left"></block>' +
+'    <block type="scott_stop"></block>' +
+'    <block type="scott_setspeed"></block>' +
+'    <block type="scott_sharp"></block>' +
+'    <block type="scott_version"></block>' +
 '  </category>' +
 '</xml>';

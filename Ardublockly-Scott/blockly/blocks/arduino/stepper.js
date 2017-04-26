@@ -49,7 +49,7 @@ Blockly.Blocks['stepper_config'] = {
     this.appendDummyInput('PINS_DROPDOWN')
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField(Blockly.Msg.ARD_STEPPER_NUMBER_OF_PINS)
-        .appendField(dropdown, "STEPPER_NUMBER_OF_PINS");
+        .appendField(dropdown, 'STEPPER_NUMBER_OF_PINS');
     this.appendDummyInput('PINS')
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField(Blockly.Msg.ARD_STEPPER_PIN1)
@@ -85,7 +85,7 @@ Blockly.Blocks['stepper_config'] = {
   mutationToDom: function() {
     var container = document.createElement('mutation');
     var input = this.getFieldValue('STEPPER_NUMBER_OF_PINS');
-    container.setAttribute("number_of_pins", input);
+    container.setAttribute('number_of_pins', input);
     return container;
   },
   /**
@@ -110,10 +110,10 @@ Blockly.Blocks['stepper_config'] = {
     } else {
       // Two pins is selected
       if (extraPinsExist) {
-        this.getInput("PINS").removeField("STEPPER_PIN3");
-        this.getInput("PINS").removeField("PIN3");
-        this.getInput("PINS").removeField("STEPPER_PIN4");
-        this.getInput("PINS").removeField("PIN4");
+        this.getInput("PINS").removeField('STEPPER_PIN3');
+        this.getInput("PINS").removeField('PIN3');
+        this.getInput("PINS").removeField('STEPPER_PIN4');
+        this.getInput("PINS").removeField('PIN4');
       }
     }
   },

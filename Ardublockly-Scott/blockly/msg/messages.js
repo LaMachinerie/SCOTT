@@ -57,123 +57,123 @@ Blockly.Msg.TODAY = 'Today';
 
 // Context menus.
 /// context menu - Make a copy of the selected block (and any blocks it contains).\n{{Identical|Duplicate}}
-Blockly.Msg.DUPLICATE_BLOCK = 'Dupliquer';
+Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
 /// context menu - Add a descriptive comment to the selected block.
-Blockly.Msg.ADD_COMMENT = 'Ajouter un commentaire';
+Blockly.Msg.ADD_COMMENT = 'Add Comment';
 /// context menu - Remove the descriptive comment from the selected block.
-Blockly.Msg.REMOVE_COMMENT = 'Supprimer un commentaire';
+Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
 /// context menu - Change from 'external' to 'inline' mode for displaying blocks used as inputs to the selected block.  See [[Translating:Blockly#context_menus]].
-Blockly.Msg.EXTERNAL_INPUTS = 'Entrée externe';
+Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
 /// context menu - Change from 'internal' to 'external' mode for displaying blocks used as inputs to the selected block.  See [[Translating:Blockly#context_menus]].
-Blockly.Msg.INLINE_INPUTS = 'Entrée Linéaire';
+Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
 /// context menu - Permanently delete the selected block.
-Blockly.Msg.DELETE_BLOCK = 'Supprimer un bloc';
+Blockly.Msg.DELETE_BLOCK = 'Delete Block';
 /// context menu - Permanently delete the %1 selected blocks.\n\nParameters:\n* %1 - an integer greater than 1.
-Blockly.Msg.DELETE_X_BLOCKS = 'supprimmer %1 bloc';
+Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
 /// confirmation prompt - Question the user if they really wanted to permanently delete all %1 blocks.\n\nParameters:\n* %1 - an integer greater than 1.
-Blockly.Msg.DELETE_ALL_BLOCKS = 'supprimmer les %1 bloc ?';
+Blockly.Msg.DELETE_ALL_BLOCKS = 'Delete all %1 blocks?';
 /// context menu - Reposition all the blocks so that they form a neat line.
-Blockly.Msg.CLEAN_UP = 'Nettoyage des blocs';
+Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
 /// context menu - Make the appearance of the selected block smaller by hiding some information about it.
-Blockly.Msg.COLLAPSE_BLOCK = 'Réduire le bloc';
+Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
 /// context menu - Make the appearance of all blocks smaller by hiding some information about it.  Use the same terminology as in the previous message.
-Blockly.Msg.COLLAPSE_ALL = 'Réduire tout les blocs';
+Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
 /// context menu - Restore the appearance of the selected block by showing information about it that was hidden (collapsed) earlier.
-Blockly.Msg.EXPAND_BLOCK = 'Déployer le bloc';
+Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
 /// context menu - Restore the appearance of all blocks by showing information about it that was hidden (collapsed) earlier.  Use the same terminology as in the previous message.
-Blockly.Msg.EXPAND_ALL = 'Déployer les blocs';
+Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
 /// context menu - Make the selected block have no effect (unless reenabled).
-Blockly.Msg.DISABLE_BLOCK = 'Désactiver le bloc';
+Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
 /// context menu - Make the selected block have effect (after having been disabled earlier).
-Blockly.Msg.ENABLE_BLOCK = 'Activer le bloc';
+Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
 /// context menu - Provide helpful information about the selected block.\n{{Identical|Help}}
-Blockly.Msg.HELP = 'Aide';
+Blockly.Msg.HELP = 'Help';
 /// context menu - Undo the previous action.\n{{Identical|Undo}}
-Blockly.Msg.UNDO = 'Annuler';
+Blockly.Msg.UNDO = 'Undo';
 /// context menu - Undo the previous undo action.\n{{Identical|Redo}}
-Blockly.Msg.REDO = 'Répeter';
+Blockly.Msg.REDO = 'Redo';
 
 // Realtime collaboration.
 /// collaboration instruction - Tell the user that they can talk with other users.
-Blockly.Msg.CHAT = 'Communiquer avec vos collaborateurs en écrivant ici !';
+Blockly.Msg.CHAT = 'Chat with your collaborator by typing in this box!';
 /// authorization instruction - Ask the user to authorize this app so it can be saved and shared by them.
-Blockly.Msg.AUTH = 'Veuillez autoriser cette application à activer la sauvegarde et partager.';
+Blockly.Msg.AUTH = 'Please authorize this app to enable your work to be saved and to allow it to be shared by you.';
 /// First person singular - objective case
-Blockly.Msg.ME = 'Moi';
+Blockly.Msg.ME = 'Me';
 
 // Variable renaming.
 /// prompt - This message is only seen in the Opera browser.  With most browsers, users can edit numeric values in blocks by just clicking and typing.  Opera does not allows this, so we have to open a new window and prompt users with this message to chanage a value.
-Blockly.Msg.CHANGE_VALUE_TITLE = 'Changer la valeur:';
+Blockly.Msg.CHANGE_VALUE_TITLE = 'Change value:';
 /// dropdown choice - When the user clicks on a variable block, this is one of the dropdown menu choices.  It is used to define a new variable.  See [https://github.com/google/blockly/wiki/Variables#dropdown-menu https://github.com/google/blockly/wiki/Variables#dropdown-menu].
-Blockly.Msg.NEW_VARIABLE = 'Nouvelle variable...';
+Blockly.Msg.NEW_VARIABLE = 'New variable...';
 /// prompt - Prompts the user to enter the name for a new variable.  See [https://github.com/google/blockly/wiki/Variables#dropdown-menu https://github.com/google/blockly/wiki/Variables#dropdown-menu].
-Blockly.Msg.NEW_VARIABLE_TITLE = 'Nouveau nom de variable:';
+Blockly.Msg.NEW_VARIABLE_TITLE = 'New variable name:';
 /// dropdown choice - When the user clicks on a variable block, this is one of the dropdown menu choices.  It is used to rename the current variable.  See [https://github.com/google/blockly/wiki/Variables#dropdown-menu https://github.com/google/blockly/wiki/Variables#dropdown-menu].
-Blockly.Msg.RENAME_VARIABLE = 'Renomer la variable...';
+Blockly.Msg.RENAME_VARIABLE = 'Rename variable...';
 /// prompt - Prompts the user to enter the new name for the selected variable.  See [https://github.com/google/blockly/wiki/Variables#dropdown-menu https://github.com/google/blockly/wiki/Variables#dropdown-menu].\n\nParameters:\n* %1 - the name of the variable to be renamed.
-Blockly.Msg.RENAME_VARIABLE_TITLE = 'Renomer les "%1" variables en:';
+Blockly.Msg.RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
 
 // Colour Blocks.
 /// url - Information about colour.
 Blockly.Msg.COLOUR_PICKER_HELPURL = 'https://en.wikipedia.org/wiki/Color';
 /// tooltip - See [https://github.com/google/blockly/wiki/Colour#picking-a-colour-from-a-palette https://github.com/google/blockly/wiki/Colour#picking-a-colour-from-a-palette].
-Blockly.Msg.COLOUR_PICKER_TOOLTIP = 'Choisir la couleur depuis la palette.';
+Blockly.Msg.COLOUR_PICKER_TOOLTIP = 'Choose a colour from the palette.';
 /// url - A link that displays a random colour each time you visit it.
 Blockly.Msg.COLOUR_RANDOM_HELPURL = 'http://randomcolour.com';
 /// block text - Title of block that generates a colour at random.
-Blockly.Msg.COLOUR_RANDOM_TITLE = 'Couleur aléatoire';
+Blockly.Msg.COLOUR_RANDOM_TITLE = 'random colour';
 /// tooltip - See [https://github.com/google/blockly/wiki/Colour#generating-a-random-colour https://github.com/google/blockly/wiki/Colour#generating-a-random-colour].
-Blockly.Msg.COLOUR_RANDOM_TOOLTIP = 'Choisi une couleur aléatoirement';
+Blockly.Msg.COLOUR_RANDOM_TOOLTIP = 'Choose a colour at random.';
 /// url - A link for color codes with percentages (0-100%) for each component, instead of the more common 0-255, which may be more difficult for beginners.
 Blockly.Msg.COLOUR_RGB_HELPURL = 'http://www.december.com/html/spec/colorper.html';
 /// block text - Title of block for [https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components].
-Blockly.Msg.COLOUR_RGB_TITLE = 'Couleur RGB';
+Blockly.Msg.COLOUR_RGB_TITLE = 'colour with';
 /// block input text - The amount of red (from 0 to 100) to use when [https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components].\n{{Identical|Red}}
-Blockly.Msg.COLOUR_RGB_RED = 'Rouge';
+Blockly.Msg.COLOUR_RGB_RED = 'red';
 /// block input text - The amount of green (from 0 to 100) to use when [https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components].
-Blockly.Msg.COLOUR_RGB_GREEN = 'Vert';
+Blockly.Msg.COLOUR_RGB_GREEN = 'green';
 /// block input text - The amount of blue (from 0 to 100) to use when [https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components].\n{{Identical|Blue}}
-Blockly.Msg.COLOUR_RGB_BLUE = 'Bleu';
+Blockly.Msg.COLOUR_RGB_BLUE = 'blue';
 /// tooltip - See [https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components https://github.com/google/blockly/wiki/Colour#creating-a-colour-from-red-green-and-blue-components].
-Blockly.Msg.COLOUR_RGB_TOOLTIP = 'Créer une couleur avec une quantité définie de rouge, vert, and bleu. toutes les valeurs doivent être comprise entre 0 et 100.';
+Blockly.Msg.COLOUR_RGB_TOOLTIP = 'Create a colour with the specified amount of red, green, and blue. All values must be between 0 and 100.';
 /// url - A useful link that displays blending of two colors.
 Blockly.Msg.COLOUR_BLEND_HELPURL = 'http://meyerweb.com/eric/tools/color-blend/';
 /// block text - A verb for blending two shades of paint.
-Blockly.Msg.COLOUR_BLEND_TITLE = 'Méleanger';
+Blockly.Msg.COLOUR_BLEND_TITLE = 'blend';
 /// block input text - The first of two colours to [https://github.com/google/blockly/wiki/Colour#blending-colours blend].
-Blockly.Msg.COLOUR_BLEND_COLOUR1 = 'couleur 1';
+Blockly.Msg.COLOUR_BLEND_COLOUR1 = 'colour 1';
 /// block input text - The second of two colours to [https://github.com/google/blockly/wiki/Colour#blending-colours blend].
-Blockly.Msg.COLOUR_BLEND_COLOUR2 = 'couleur 2';
+Blockly.Msg.COLOUR_BLEND_COLOUR2 = 'colour 2';
 /// block input text - The proportion of the [https://github.com/google/blockly/wiki/Colour#blending-colours blend] containing the first color; the remaining proportion is of the second colour.  For example, if the first colour is red and the second color blue, a ratio of 1 would yield pure red, a ratio of .5 would yield purple (equal amounts of red and blue), and a ratio of 0 would yield pure blue.\n{{Identical|Ratio}}
 Blockly.Msg.COLOUR_BLEND_RATIO = 'ratio';
 /// tooltip - See [https://github.com/google/blockly/wiki/Colour#blending-colours https://github.com/google/blockly/wiki/Colour#blending-colours].
-Blockly.Msg.COLOUR_BLEND_TOOLTIP = 'Mélange deux couleur avec un ration défini (0.0 - 1.0).';
+Blockly.Msg.COLOUR_BLEND_TOOLTIP = 'Blends two colours together with a given ratio (0.0 - 1.0).';
 
 // Loop Blocks.
 /// url - Describes 'repeat loops' in computer programs; consider using the translation of the page [https://en.wikipedia.org/wiki/Control_flow http://en.wikipedia.org/wiki/Control_flow].
 Blockly.Msg.CONTROLS_REPEAT_HELPURL = 'https://en.wikipedia.org/wiki/For_loop';
 /// block input text - Title of [https://github.com/google/blockly/wiki/Loops#repeat repeat block].\n\nParameters:\n* %1 - the number of times the body of the loop should be repeated.
-Blockly.Msg.CONTROLS_REPEAT_TITLE = 'Répéter %1 fois';
+Blockly.Msg.CONTROLS_REPEAT_TITLE = 'repeat %1 times';
 /// block text - Preceding the blocks in the body of the loop.  See [https://github.com/google/blockly/wiki/Loops https://github.com/google/blockly/wiki/Loops].\n{{Identical|Do}}
-Blockly.Msg.CONTROLS_REPEAT_INPUT_DO = 'faire';
+Blockly.Msg.CONTROLS_REPEAT_INPUT_DO = 'do';
 /// tooltip - See [https://github.com/google/blockly/wiki/Loops#repeat https://github.com/google/blockly/wiki/Loops#repeat].
-Blockly.Msg.CONTROLS_REPEAT_TOOLTIP = 'Execute le contenu un certain nombre de fois';
+Blockly.Msg.CONTROLS_REPEAT_TOOLTIP = 'Do some statements several times.';
 /// url - Describes 'while loops' in computer programs; consider using the translation of [https://en.wikipedia.org/wiki/While_loop https://en.wikipedia.org/wiki/While_loop], if present, or [https://en.wikipedia.org/wiki/Control_flow https://en.wikipedia.org/wiki/Control_flow].
 Blockly.Msg.CONTROLS_WHILEUNTIL_HELPURL = 'https://github.com/google/blockly/wiki/Loops#repeat';
 Blockly.Msg.CONTROLS_WHILEUNTIL_INPUT_DO = Blockly.Msg.CONTROLS_REPEAT_INPUT_DO;
 /// dropdown - Specifies that a loop should [https://github.com/google/blockly/wiki/Loops#repeat-while repeat while] the following condition is true.
-Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_WHILE = "répéter tant que ";
+Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'repeat while';
 /// dropdown - Specifies that a loop should [https://github.com/google/blockly/wiki/Loops#repeat-until repeat until] the following condition becomes true.
-Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = "répéter jusqu'à ce que ";
+Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'repeat until';
 /// tooltip - See [https://github.com/google/blockly/wiki/Loops#repeat-while Loops#repeat-while https://github.com/google/blockly/wiki/Loops#repeat-while Loops#repeat-while].
-Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = "Executer le contenu tant qu'une valeur est vrai.";
+Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
 /// tooltip - See [https://github.com/google/blockly/wiki/Loops#repeat-until https://github.com/google/blockly/wiki/Loops#repeat-until].
-Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = "Executer le contenu tant qu'une valeur est fausse.";
+Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
 
 /// url - Describes 'for loops' in computer programs.  Consider using your language's translation of [https://en.wikipedia.org/wiki/For_loop https://en.wikipedia.org/wiki/For_loop], if present.
 Blockly.Msg.CONTROLS_FOR_HELPURL = 'https://github.com/google/blockly/wiki/Loops#count-with';
 /// tooltip - See [https://github.com/google/blockly/wiki/Loops#count-with https://github.com/google/blockly/wiki/Loops#count-with].\n\nParameters:\n* %1 - the name of the loop variable.
-Blockly.Msg.CONTROLS_FOR_TOOLTIP = "Fait varier la variable %1 du la valeur de départ, jusqu' a la valeur d'arriver, avec un interval défini, et execute le contenu.";
+Blockly.Msg.CONTROLS_FOR_TOOLTIP = 'Have the variable "%1" take on the values from the start number to the end number, counting by the specified interval, and do the specified blocks.';
 /// block text - Repeatedly counts a variable (%1)
 /// starting with a (usually lower) number in a range (%2),
 /// ending with a (usually higher) number in a range (%3), and counting the
@@ -181,7 +181,7 @@ Blockly.Msg.CONTROLS_FOR_TOOLTIP = "Fait varier la variable %1 du la valeur de d
 /// [https://github.com/google/blockly/wiki/Loops#count-with
 /// https://github.com/google/blockly/wiki/Loops#count-with].
 /// [[File:Blockly-count-with.png]]
-Blockly.Msg.CONTROLS_FOR_TITLE = 'Faire varier %1 de %2 à %3 by %4';
+Blockly.Msg.CONTROLS_FOR_TITLE = 'count with %1 from %2 to %3 by %4';
 Blockly.Msg.CONTROLS_FOR_INPUT_DO = Blockly.Msg.CONTROLS_REPEAT_INPUT_DO;
 
 /// url - Describes 'for-each loops' in computer programs.  Consider using your language's translation of [https://en.wikipedia.org/wiki/Foreach https://en.wikipedia.org/wiki/Foreach] if present.
