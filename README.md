@@ -10,7 +10,7 @@ Les pieces peuvent toutes être crées grace à une imprimante 3D et le robot s'
 
 Pour le programmer ? Rien de plus simple ! La Machinerie vous propose le logiciel Ardublockly-Scott pour programmer le robot en assemblant simplement des blocs d'instructions.
 
-![](https://github.com/carlosperate/ardublockly/wiki/img/screenshots_cross_platform_1.png)
+![](https://github.com/LaMachinerie/SCOTT/blob/master/Ardublockly-Scott/Pictures/screenshots_cross_platform_1.png)
 
 Il a été développé par L'association [La Machinerie](http://lamachinerie.org) dans le cadre du programme de médiation scientifique et technique OpenBot (lamachinerie.org/openbot/), et en partenariat avec l'entreprise Dagoma (https://www.dagoma.fr).
 
