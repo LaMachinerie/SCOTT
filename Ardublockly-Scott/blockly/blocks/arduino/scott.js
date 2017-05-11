@@ -44,7 +44,7 @@ Blockly.Blocks['scott_backward'] = {
 Blockly.Blocks['scott_right'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Trouner Scott à droite");
+        .appendField("Tourner Scott à droite");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(100);
@@ -56,7 +56,7 @@ Blockly.Blocks['scott_right'] = {
 Blockly.Blocks['scott_left'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Trouner Scott à gauche");
+        .appendField("Tounrer Scott à gauche");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(100);
@@ -85,8 +85,8 @@ Blockly.Blocks['scott_setspeed'] = {
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setColour(20);
-    this.setTooltip('');
-    this.setHelpUrl('http://www.example.com/');
+    this.setTooltip('Régle la vitesse des moteur (valeur entre 0 et 255)');
+    this.setHelpUrl('');
   }
 };
 
@@ -97,8 +97,8 @@ Blockly.Blocks['scott_sharp'] = {
         .appendField("Regarder devant (en mm)");
     this.setOutput(true, Blockly.Types.NUMBER.output);
     this.setColour(330);
-    this.setTooltip('Donne la distance entre scott et un possible obstacle (en mm)');
-    this.setHelpUrl('http://www.example.com/');
+    this.setTooltip('Donne la distance entre Scott et un possible obstacle en mm');
+    this.setHelpUrl('');
   }
 };
 
@@ -106,12 +106,12 @@ Blockly.Blocks['scott_sharp'] = {
 Blockly.Blocks['scott_version'] = {
   init: function() {
     this.appendDummyInput("Version")
-        .appendField("Selectionner la version de Scott: ")
+        .appendField("Sélectionner la version de Scott: ")
         .appendField(new Blockly.FieldDropdown([["V1", "1"], ["V2", "2"]]), "setVersion");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setColour(330);
     this.setTooltip('');
-    this.setHelpUrl('http://www.example.com/');
+    this.setHelpUrl('');
   }
 };

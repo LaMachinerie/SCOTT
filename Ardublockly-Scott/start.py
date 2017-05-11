@@ -138,7 +138,7 @@ def main():
     # Based on command line options, set the server root to the ardublockly
     # project root directory, a directory specified in the arguments, or by
     # default to the project root directory.
-    this_file_dir = os.path.dirname(os.path.realpath(sys.argv[0]))
+    this_file_dir = os.path.dirname(os.path.realpath(unicode(sys.argv[0], 'utf-8')))
     ardublockly_root_dir = find_ardublockly_dir(this_file_dir)
     if ardublockly_root_dir is None:
         print('The Ardublockly project root folder could not be found within '
