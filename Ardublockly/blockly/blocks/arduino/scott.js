@@ -19,48 +19,52 @@ Blockly.Blocks.scott_v1.HUE = 60;
 
 Blockly.Blocks['scott_forward'] = {
   init: function() {
-    this.appendDummyInput()
-        .appendField("Avancer Scott");
-    this.setPreviousStatement(true, null);
-    this.setNextStatement(true, null);
+	this.appendValueInput("TIMEF")
+        .setCheck("Number")
+        .appendField("Avancer Scott pendant (ms)");
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
     this.setColour(60);
-    this.setTooltip('Fait avancer Scott');
+    this.setTooltip('Fait avancer Scott pendant un certain temps');
     this.setHelpUrl('');
   }
 };
 
 Blockly.Blocks['scott_backward'] = {
   init: function() {
-    this.appendDummyInput()
-        .appendField("Reculer Scott");
+	this.appendValueInput("TIMEB")
+        .setCheck("Number")
+        .appendField("Reculer Scott pendant (ms)");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(60);
-    this.setTooltip('Fait reculer Scott');
+    this.setTooltip('Fait reculer Scott pendant un certain temps');
     this.setHelpUrl('');
   }
 };
 
 Blockly.Blocks['scott_right'] = {
   init: function() {
-    this.appendDummyInput()
-        .appendField("Tourner Scott à droite");
+	this.appendValueInput("TIMER")
+        .setCheck("Number")
+        .appendField("Tourner Scott vers la droite pendant (ms)");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(100);
-    this.setTooltip('Fait tourner Scott vers la droite');
+    this.setTooltip('Fait tourner Scott vers la droite pendant un certain temps');
     this.setHelpUrl('');
   }
 };
 
 Blockly.Blocks['scott_left'] = {
   init: function() {
-    this.appendDummyInput()
-        .appendField("Tounrer Scott à gauche");
+	this.appendValueInput("TIMEL")
+        .setCheck("Number")
+        .appendField("Tourner Scott vers la Gauche pendant (ms)");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(100);
-    this.setTooltip('Fait tourner Scott vers la gauche');
+    this.setTooltip('Fait tourner Scott vers la gauche pendant un certain temps');
     this.setHelpUrl('');
   }
 };

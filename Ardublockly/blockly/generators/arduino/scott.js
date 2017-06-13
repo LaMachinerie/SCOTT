@@ -30,7 +30,8 @@ Blockly.Arduino['scott_forward'] = function(block) {
   Blockly.Arduino.addSetup('MotP3','pinMode(MotPins[3], OUTPUT);\n',true);
   
   Blockly.Arduino.addFunction('avancer','\nvoid avancer(){\n  digitalWrite(MotPins[0], HIGH);\n  digitalWrite(MotPins[1], HIGH);\n  analogWrite(MotPins[2], vitesse);\n  analogWrite(MotPins[3], vitesse);\n}');
-  var code =  'avancer();\n';
+  var time = Blockly.Arduino.valueToCode(block, 'TIMEF', Blockly.Arduino.ORDER_ATOMIC);
+  var code =  'avancer();\ndelay('+time+');\n';
   return code;
 };
 
@@ -55,7 +56,8 @@ Blockly.Arduino['scott_backward'] = function(block) {
   Blockly.Arduino.addSetup('MotP3','pinMode(MotPins[3], OUTPUT);\n',true);
   
   Blockly.Arduino.addFunction('reculer', '\nvoid reculer(){\n  digitalWrite(MotPins[0], LOW);\n  digitalWrite(MotPins[1], LOW);\n  analogWrite(MotPins[2], vitesse);\n  analogWrite(MotPins[3], vitesse);\n}');
-  var code =  'reculer();\n';
+  var time = Blockly.Arduino.valueToCode(block, 'TIMEF', Blockly.Arduino.ORDER_ATOMIC);
+  var code =  'avancer();\ndelay('+time+');\n';
   return code;
 };
 
@@ -81,7 +83,8 @@ Blockly.Arduino['scott_right'] = function(block) {
   
   Blockly.Arduino.addFunction('droite', '\nvoid droite(){\n  digitalWrite(MotPins[0], LOW);\n  digitalWrite(MotPins[1], HIGH);\n  analogWrite(MotPins[2], vitesse);\n  analogWrite(MotPins[3], vitesse);\n}');
   
-  var code =  'droite();\n';
+  var time = Blockly.Arduino.valueToCode(block, 'TIMER', Blockly.Arduino.ORDER_ATOMIC);
+  var code =  'avancer();\ndelay('+time+');\n';
   return code;
 };
 
@@ -107,7 +110,8 @@ Blockly.Arduino['scott_left'] = function(block) {
   
   Blockly.Arduino.addFunction('gauche', '\nvoid gauche(){\n  digitalWrite(MotPins[0], HIGH);\n  digitalWrite(MotPins[1], LOW);\n  analogWrite(MotPins[2], vitesse);\n  analogWrite(MotPins[3], vitesse);\n}');
   
-  var code =  'gauche();\n';
+  var time = Blockly.Arduino.valueToCode(block, 'TIMEL', Blockly.Arduino.ORDER_ATOMIC);
+  var code =  'gauche();\ndelay('+time+');\n';
   return code;
 };
 
@@ -132,7 +136,6 @@ Blockly.Arduino['scott_stop'] = function(block) {
   Blockly.Arduino.addSetup('MotP3','pinMode(MotPins[3], OUTPUT);\n',true);
   
   Blockly.Arduino.addFunction('arreter', '\nvoid arreter(){\n  analogWrite(MotPins[2], 0);\n  analogWrite(MotPins[3], 0);\n}');
-  
   var code =  'arreter();\n';
   return code;
 };
