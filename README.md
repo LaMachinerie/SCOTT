@@ -8,7 +8,7 @@ Qui est SCOTT ? C'est un petit robot éducatif à monter et programmer soi même
 
 Les pieces peuvent toutes être crées grace à une imprimante 3D et le robot s'assemble facilement en moins d'une heure. Ce robot est idéal pour s'intier à la robotique et à la programmation.
 
-Pour le programmer ? Rien de plus simple ! La Machinerie vous propose le logiciel Ardublockly-Scott pour programmer le robot en assemblant simplement des blocs d'instructions.
+Pour le programmer ? Rien de plus simple ! La Machinerie vous propose le logiciel [Ardublockly-Scott](https://github.com/LaMachinerie/Ardublockly-Scott) pour programmer le robot en assemblant simplement des blocs d'instructions.
 
 ![](https://github.com/LaMachinerie/SCOTT/blob/master/Ardublockly-Scott/Pictures/screenshots_cross_platform_1.png)
 
